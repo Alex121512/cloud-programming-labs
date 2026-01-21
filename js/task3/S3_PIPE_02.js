@@ -11,8 +11,8 @@ function compose(...fns) {
 }
 
 // Tests
-const add1 = (x) => x + 1;
+const add = (x) => x + 1;
 const double = (x) => x * 2;
 
-const run = compose(add1, double);
+const run = compose(add, double);
 console.log(run(3)); // 7
