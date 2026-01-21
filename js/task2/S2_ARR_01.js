@@ -1,14 +1,14 @@
 function cleanNumbers(arr) {
-  const result = [];
+  const res = [];
 
   for (const item of arr) {
     const num = Number(item);
     if (!Number.isNaN(num)) {
-      result.push(num);
+      res.push(num);
     }
   }
 
-  return result;
+  return res;
 }
 
 // Tests
